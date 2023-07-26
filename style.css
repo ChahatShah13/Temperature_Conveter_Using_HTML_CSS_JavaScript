@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: gold;
+   
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input:focus {
+    outline: none;
+}
+
+/* Style the input fields for better distinction */
+#celsius {
+    border-color: #007bff; /* Blue */
+}
+
+#fahrenheit {
+    border-color: #28a745; /* Green */
+}
+
+#kelvin {
+    border-color: #dc3545; /* Red */
+}
